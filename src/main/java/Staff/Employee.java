@@ -38,7 +38,9 @@ public abstract class Employee {
     }
 
     public void raiseSalary(double amount){
+        if(amount >= 0) {
         setSalary(this.salary+amount);
+        };
     }
 
     public double getBonus(){
