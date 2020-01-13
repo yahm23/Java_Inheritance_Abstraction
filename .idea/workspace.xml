@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="944c08ad-8aac-4ec2-bd7f-3f3c32778673" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/java/Staff/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Staff/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Staff/Manegement/Director.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Staff/Manegement/Director.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/DirectorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DirectorTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,7 +39,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DirectorTest.canChangeEmployeeName">
+  <component name="RunManager" selected="JUnit.DirectorTest">
     <configuration name="DirectorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="employeeLab" />
       <option name="PACKAGE_NAME" value="" />
@@ -90,11 +91,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DirectorTest" />
         <item itemvalue="JUnit.DirectorTest.canChangeEmployeeName" />
         <item itemvalue="JUnit.DirectorTest.cannotHaveNullEmployee" />
         <item itemvalue="JUnit.DirectorTest.employeeHasSalaryIncrease" />
         <item itemvalue="JUnit.DirectorTest.cannotRaiseSalaryWithNegativeValue" />
-        <item itemvalue="JUnit.DirectorTest" />
       </list>
     </recent_temporary>
   </component>
