@@ -12,7 +12,7 @@ public class DeveloperAndDatabaseAdminTest {
 //
     @Before
     public void setup(){
-        developer =new Developer("Yousef","1234",2600000.00);
+        developer =new Developer("Yousef","1234",26000.00);
         dbAdmin = new DatabaseAdmin("Morgaine","12343",27000.00);
 
     }
@@ -21,9 +21,20 @@ public class DeveloperAndDatabaseAdminTest {
         assertEquals("Yousef",developer.getName());
         assertEquals("Morgaine",dbAdmin.getName());
     }
+
     @Test
     public void employeeHasNi(){
         assertEquals("1234",developer.getNi());
         assertEquals("12343",dbAdmin.getNi());
     }
+
+    @Test
+    public void employeeHasSalary(){
+        assertEquals(26000.00,developer.getSalary(),0.001);
+        assertEquals(27000.00,dbAdmin.getSalary(),0.001);
+    }
+
+
+
+
 }
