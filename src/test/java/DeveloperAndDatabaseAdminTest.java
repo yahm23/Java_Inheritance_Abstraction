@@ -38,7 +38,12 @@ public class DeveloperAndDatabaseAdminTest {
     public void employeeHasSalaryIncrease(){
         developer.raiseSalary(1000.00);
         assertEquals(27000.00,developer.getSalary(),0.001);
+    }
 
+    @Test
+    public void employeeCanBePaidBonus(){
+
+        assertEquals(270.00, dbAdmin.getBonus(),0.001);
     }
 
 

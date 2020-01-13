@@ -40,4 +40,8 @@ public abstract class Employee {
     public void raiseSalary(double amount){
         setSalary(this.salary+amount);
     }
+
+    public double getBonus(){
+        return 0.01*this.salary;
+    }
 }
