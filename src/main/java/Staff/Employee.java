@@ -13,4 +13,27 @@ public abstract class Employee {
     }
 
 
+    public String getName(){
+        return this.name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getNi() {
+        return ni;
+    }
+
+    public void setNi(String ni) {
+        this.ni = ni;
+    }
+
+    public double getSalary() {
+        return salary;
+    }
+
+    public void setSalary(double salary) {
+        this.salary = salary;
+    }
 }

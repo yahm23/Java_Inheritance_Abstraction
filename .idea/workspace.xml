@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="944c08ad-8aac-4ec2-bd7f-3f3c32778673" name="Default Changelist" comment="" />
+    <list default="true" id="944c08ad-8aac-4ec2-bd7f-3f3c32778673" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Staff/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Staff/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Staff/TechStaff/DatabaseAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Staff/TechStaff/DatabaseAdmin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Staff/TechStaff/Developer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Staff/TechStaff/Developer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DeveloperAndDatabaseAdminTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DeveloperAndDatabaseAdminTest.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,7 +22,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1WLHwPWbd4fQl1ACXwhWHOJQGZr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
@@ -31,6 +42,23 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="DeveloperAndDatabaseAdminTest.employeeHasName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="employeeLab" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DeveloperAndDatabaseAdminTest" />
+      <option name="METHOD_NAME" value="employeeHasName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.DeveloperAndDatabaseAdminTest.employeeHasName" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -43,5 +71,16 @@
       <updated>1578922192672</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
