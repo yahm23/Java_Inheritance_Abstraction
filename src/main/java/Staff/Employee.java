@@ -36,4 +36,8 @@ public abstract class Employee {
     public void setSalary(double salary) {
         this.salary = salary;
     }
+
+    public void raiseSalary(double amount){
+        setSalary(this.salary+amount);
+    }
 }
