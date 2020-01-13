@@ -21,8 +21,9 @@ public class DeveloperAndDatabaseAdminTest {
         assertEquals("Yousef",developer.getName());
         assertEquals("Morgaine",dbAdmin.getName());
     }
-//    @Test
-//    public void employeeHasNi(){
-//        assertEquals();
-//    }
+    @Test
+    public void employeeHasNi(){
+        assertEquals("1234",developer.getNi());
+        assertEquals("12343",dbAdmin.getNi());
+    }
 }
