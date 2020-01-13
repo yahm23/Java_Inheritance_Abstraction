@@ -21,6 +21,43 @@ public class DirectorTest {
         assertEquals(100000.00, director.getBudget(), 0.001);
     }
 
+    @Test
+    public void canGetDept(){
+        assertEquals("Management",director.getDept());
+    }
+
+    @Test
+    public void canManagerSalary(){
+        assertEquals(28000.00,director.getSalary(),0.001);
+    }
+
+    @Test
+    public void employeeHasName(){
+        assertEquals("Morgaine",director.getName());
+    }
+
+    @Test
+    public void employeeHasNi(){
+        assertEquals("1234",director.getNi());
+    }
+
+    @Test
+    public void employeeHasSalary(){
+        assertEquals(28000.00,director.getSalary(),0.001);
+    }
+
+    @Test
+    public void employeeHasSalaryIncrease(){
+        director.raiseSalary(1000.00);
+        assertEquals(29000.00,director.getSalary(),0.001);
+    }
+
+    @Test
+    public void employeeCanBePaidBonus(){
+
+        assertEquals(280.00, director.getBonus(),0.001);
+    }
+
 
 
 
