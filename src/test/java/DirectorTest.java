@@ -64,6 +64,19 @@ public class DirectorTest {
         assertEquals(28000.00, director.getSalary(), 0.001);
     }
 
+    @Test
+    public void cannotHaveNullEmployee(){
+        director.setName(null);
+        assertEquals("Morgaine", director.getName());
+    }
+
+    @Test
+    public void canChangeEmployeeName(){
+        director.setName("Yousef");
+        assertEquals("Yousef", director.getName());
+    }
+
+
 
 
 
